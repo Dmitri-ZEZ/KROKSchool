@@ -15,7 +15,7 @@ public class RecordPlayer {
      * @param type тип звуковоспроизводящего устройства
      * @param medium носитель нахоядщийся в данном устройстве
      * */
-    RecordPlayer(MediaTypes type,Medium medium){
+    public RecordPlayer(MediaTypes type,Medium medium){
         this.type = type;
         setMedium(medium);
     }
